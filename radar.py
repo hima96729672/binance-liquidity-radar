@@ -6,7 +6,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 SPOT = 'https://api.binance.com'
-FUTURES = 'https://fapi.binance.com'
+FUTURES = 'https://fapi1.binance.com'
 TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 CHAT = os.environ['TELEGRAM_CHAT_ID']
 MAX_SYMBOLS = int(os.getenv('MAX_SYMBOLS', '120'))
